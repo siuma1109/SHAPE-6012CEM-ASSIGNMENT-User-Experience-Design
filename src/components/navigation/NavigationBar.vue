@@ -19,18 +19,26 @@
 
                     <!-- Menu categories -->
                     <div class="menu-content p-4">
-                        <!-- Food & Beverages -->
+                        <!-- Categories -->
                         <div v-for="category in mainCategories" :key="category.id" class="category mb-6">
-                            <h2 class="text-2xl font-bold mb-4 text-blue-900">{{ category.name }}</h2>
+                            <RouterLink :to="`/categories/${category.id}`" @click="toggleMenu">
+                                <h2 class="text-2xl font-bold mb-4 text-blue-900">{{ category.name }}</h2>
+                            </RouterLink>
                             <ul class="space-y-3">
-                                <li v-for="subCategory in category.subCategories" :key="subCategory.id"><a href="#"
-                                        class="text-blue-600">{{ subCategory.name }}</a></li>
+                                <li v-for="subCategory in category.subCategories" :key="subCategory.id"
+                                    class="text-blue-600">
+                                    <RouterLink :to="`/categories/${subCategory.id}`" @click="toggleMenu">
+                                        {{ subCategory.name }}
+                                    </RouterLink>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
         <div
             class="navigation-bar-item ml-2 hover:cursor-pointer p-2 border-2 border-transparent hover:border-blue-900">
             <RouterLink to="/today-deals">
@@ -45,13 +53,14 @@ import { ref } from 'vue';
 import categoriesJson from '@/mocks/data/categories.json';
 const mainCategories = ref(categoriesJson.filter(category => category.parent_id === null));
 mainCategories.value.map(category => {
-    category.subCategories = categoriesJson.filter(subcategory => subcategory.parent_id === category.id);
+    const subCategories = categoriesJson.filter(subcategory => subcategory.parent_id === category.id);
+    category.subCategories = subCategories || [];
 });
 const isMenuOpen = ref(false);
 
 const toggleMenu = () => {
     isMenuOpen.value = !isMenuOpen.value;
-    console.log(isMenuOpen.value);
+    //console.log(isMenuOpen.value);
 };
 </script>
 
