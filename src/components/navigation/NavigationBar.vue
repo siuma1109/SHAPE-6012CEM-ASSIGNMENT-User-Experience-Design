@@ -20,30 +20,11 @@
                     <!-- Menu categories -->
                     <div class="menu-content p-4">
                         <!-- Food & Beverages -->
-                        <div class="category mb-6">
-                            <h2 class="text-2xl font-bold mb-4 text-blue-900">Food & Beverages</h2>
+                        <div v-for="category in mainCategories" :key="category.id" class="category mb-6">
+                            <h2 class="text-2xl font-bold mb-4 text-blue-900">{{ category.name }}</h2>
                             <ul class="space-y-3">
-                                <li><a href="#" class="text-blue-600">Beverages & Alcoholic Drinks</a></li>
-                                <li><a href="#" class="text-blue-600">Snack & Dessert</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- Baby & Mum -->
-                        <div class="category mb-6">
-                            <h2 class="text-2xl font-bold mb-4 text-blue-900">Baby & Mum</h2>
-                            <ul class="space-y-3">
-                                <li><a href="#" class="text-blue-600">Baby Milk Formula</a></li>
-                                <li><a href="#" class="text-blue-600">Baby Diaper & Pant</a></li>
-                                <li><a href="#" class="text-blue-600">Baby Food</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- Personal Care & Health -->
-                        <div class="category mb-6">
-                            <h2 class="text-2xl font-bold mb-4 text-blue-900">Personal Care & Health</h2>
-                            <ul class="space-y-3">
-                                <li><a href="#" class="text-blue-600">Oral Care</a></li>
-                                <li><a href="#" class="text-blue-600">Body Care</a></li>
+                                <li v-for="subCategory in category.subCategories" :key="subCategory.id"><a href="#"
+                                        class="text-blue-600">{{ subCategory.name }}</a></li>
                             </ul>
                         </div>
                     </div>
@@ -61,7 +42,11 @@
 
 <script setup>
 import { ref } from 'vue';
-
+import categoriesJson from '@/mocks/data/categories.json';
+const mainCategories = ref(categoriesJson.filter(category => category.parent_id === null));
+mainCategories.value.map(category => {
+    category.subCategories = categoriesJson.filter(subcategory => subcategory.parent_id === category.id);
+});
 const isMenuOpen = ref(false);
 
 const toggleMenu = () => {
