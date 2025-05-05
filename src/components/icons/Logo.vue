@@ -1,13 +1,11 @@
 <template>
-    <a class="logo" href="/">
-
-        <img src="@/assets/images/PNS-logo.png" alt="logo" />
-
-    </a>
+    <RouterLink class="logo" to="/">
+        <img src="@/assets/images/header/PNS-logo.png" alt="logo" />
+    </RouterLink>
 </template>
 
 <script setup>
-
+import { RouterLink } from 'vue-router';
 </script>
 
 <style scoped>

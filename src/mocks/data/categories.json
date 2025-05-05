@@ -1,0 +1,266 @@
+[
+    {
+        "id": 1,
+        "name": "Food & Beverages",
+        "parent_id": null,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 2,
+        "name": "Baby & Mum",
+        "parent_id": null,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 3,
+        "name": "Personal Care & Health",
+        "parent_id": null,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 4,
+        "name": "Household",
+        "parent_id": null,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 5,
+        "name": "Pet Zone",
+        "parent_id": null,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 6,
+        "name": "Exclusive",
+        "parent_id": null,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 7,
+        "name": "Watson's Wine",
+        "parent_id": null,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 8,
+        "name": "Watsons Store",
+        "parent_id": null,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 9,
+        "name": "Water",
+        "parent_id": 1,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 10,
+        "name": "Alcoholic Beverages",
+        "parent_id": 1,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 11,
+        "name": "Soft Drinks",
+        "parent_id": 1,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 12,
+        "name": "Snacks & Confectionery",
+        "parent_id": 1,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 13,
+        "name": "Rice & Noodles",
+        "parent_id": 1,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 14,
+        "name": "Dairy Products",
+        "parent_id": 1,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 15,
+        "name": "Fresh Produce",
+        "parent_id": 1,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 16,
+        "name": "Meat & Seafood",
+        "parent_id": 1,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 17,
+        "name": "Bakery",
+        "parent_id": 1,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 18,
+        "name": "Baby Food",
+        "parent_id": 2,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 19,
+        "name": "Diapers & Wipes",
+        "parent_id": 2,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 20,
+        "name": "Baby Care",
+        "parent_id": 2,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 21,
+        "name": "Maternal Care",
+        "parent_id": 2,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 22,
+        "name": "Skincare",
+        "parent_id": 3,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 23,
+        "name": "Hair Care",
+        "parent_id": 3,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 24,
+        "name": "Oral Care",
+        "parent_id": 3,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 25,
+        "name": "Body Care",
+        "parent_id": 3,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 26,
+        "name": "Health Supplements",
+        "parent_id": 3,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 27,
+        "name": "Feminine Care",
+        "parent_id": 3,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 28,
+        "name": "Cleaning Supplies",
+        "parent_id": 4,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 29,
+        "name": "Laundry",
+        "parent_id": 4,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 30,
+        "name": "Kitchen & Dining",
+        "parent_id": 4,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 31,
+        "name": "Home Essentials",
+        "parent_id": 4,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 32,
+        "name": "Dog Food & Supplies",
+        "parent_id": 5,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 33,
+        "name": "Cat Food & Supplies",
+        "parent_id": 5,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 34,
+        "name": "Other Pets",
+        "parent_id": 5,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 35,
+        "name": "International Foods",
+        "parent_id": 6,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 36,
+        "name": "Organic & Health Foods",
+        "parent_id": 6,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 37,
+        "name": "Premium Selections",
+        "parent_id": 6,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 38,
+        "name": "Red Wine",
+        "parent_id": 7,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 39,
+        "name": "White Wine",
+        "parent_id": 7,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 40,
+        "name": "Champagne & Sparkling",
+        "parent_id": 7,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 41,
+        "name": "Spirits",
+        "parent_id": 7,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 42,
+        "name": "Beauty Products",
+        "parent_id": 8,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 43,
+        "name": "Pharmacy",
+        "parent_id": 8,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 44,
+        "name": "Health Devices",
+        "parent_id": 8,
+        "image": "https://via.placeholder.com/150"
+    }
+]
