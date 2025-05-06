@@ -59,13 +59,31 @@
 import { ref, watch, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import ProductCard from '../components/product/ProductCard.vue'
-import { getProductByCategoryIdRecursive } from '../services/ProductService'
+import { getProductByCategoryIdRecursive, getProductsByKeyword } from '../services/ProductService'
 import categoriesJson from '../mocks/data/categories.json'
 
 const route = useRoute()
 const category = ref('')
 const products = ref([])
+const availableProducts = ref([])
 const categoryName = ref('')
+const keyword = ref('')
+
+// Initialize keyword from route.query
+keyword.value = route.query.keyword || ''
+
+// Initialize availableProducts
+onMounted(() => {
+    availableProducts.value = getProductsByKeyword(keyword.value)
+    loadData()
+})
+
+// Watch for route query changes
+watch(() => route.query.keyword, (newKeyword) => {
+    keyword.value = newKeyword || ''
+    availableProducts.value = getProductsByKeyword(keyword.value)
+    loadData()
+})
 
 // Filter states
 const selectedCategories = ref([])
@@ -110,12 +128,18 @@ const resetFilters = () => {
 
 // Define loadData function BEFORE it's used in watch
 const loadData = () => {
-    // Get products for this category
-    products.value = getProductByCategoryIdRecursive(category.value)
+    // If we have a category ID, filter products by category recursively
+    if (category.value) {
+        products.value = getProductByCategoryIdRecursive(availableProducts.value, category.value)
 
-    // Set category name
-    const currentCategory = categoriesJson.find(c => c.id === parseInt(category.value))
-    categoryName.value = currentCategory ? currentCategory.name : ''
+        // Set category name
+        const currentCategory = categoriesJson.find(c => c.id === parseInt(category.value))
+        categoryName.value = currentCategory ? currentCategory.name : ''
+    } else {
+        // If we don't have a category ID but have a keyword, use all available products from keyword search
+        products.value = availableProducts.value
+        categoryName.value = keyword.value ? `Search results for "${keyword.value}"` : 'All Products'
+    }
 
     // Reset filters
     resetFilters()

@@ -9,11 +9,22 @@ const getProductById = (id) => {
     return productsJson.find(product => product.id === id)
 }
 
+export const getProductsByKeyword = (keyword) => {
+    // If keyword is undefined or null, return all products
+    if (!keyword) {
+        return productsJson;
+    }
+
+    return productsJson.filter(product =>
+        product && product.name && product.name.toLowerCase().includes(keyword.toLowerCase())
+    );
+}
+
 const getProductsByCategory = (categoryId) => {
     return productsJson.filter(product => product.category_id === categoryId || product.parent_id === categoryId)
 }
 
-export const getProductByCategoryIdRecursive = (categoryId) => {
+export const getProductByCategoryIdRecursive = (products, categoryId) => {
     // Convert categoryId to number if it's a string
     const catId = typeof categoryId === 'string' ? parseInt(categoryId, 10) : categoryId
 
@@ -32,7 +43,7 @@ export const getProductByCategoryIdRecursive = (categoryId) => {
     const allCategoryIds = [catId, ...getAllChildCategories(catId)]
 
     // Filter products that belong to any of these categories
-    return productsJson.filter(product => allCategoryIds.includes(product.category_id))
+    return products.filter(product => allCategoryIds.includes(product.category_id))
 }
 
 export const getProductImage = (product, category) => {
