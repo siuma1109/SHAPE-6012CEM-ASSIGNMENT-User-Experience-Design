@@ -56,7 +56,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-weight: normal;
+  /* font-weight: normal; */
 }
 
 body {

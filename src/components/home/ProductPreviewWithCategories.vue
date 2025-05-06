@@ -2,7 +2,7 @@
     <div class="ProductPreviewWithCategories">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-4">
             <div class="flex-1 border rounded-lg p-4 text-center" v-for="category in categories" :key="category.name">
-                <h3 class="text-lg font-semibold">{{ category.name }}</h3>
+                <h3 class="text-lg font-semibold pb-4 text-left">{{ category.name }}</h3>
                 <div class="grid grid-cols-2 gap-2 mb-2">
                     <RouterLink v-for="product in getCategoryProducts(category.id, 4)" :key="product.id"
                         :to="`/search?keyword=${product.name}`">

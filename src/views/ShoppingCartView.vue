@@ -85,7 +85,7 @@
                 </div>
 
                 <button
-                    class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg text-xl font-semibold hover:cursor-pointer"
+                    class="w-full disabled:bg-gray-400 disabled:cursor-not-allowed bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg text-xl font-semibold hover:cursor-pointer"
                     @click="checkout" :disabled="selectedItems.length === 0">
                     Checkout
                 </button>
@@ -126,6 +126,9 @@
                 </div>
             </div>
         </div>
+
+        <!-- Include login modal component -->
+        <LoginModal ref="loginModalRef" />
     </div>
 </template>
 
@@ -140,6 +143,8 @@ import {
     getCartTotal
 } from '@/services/ShoppingCartService';
 import { getProductImage, handleImageError } from '@/services/ProductService';
+import LoginModal from '@/components/auth/LoginModal.vue';
+import { ModalController } from '@/components/auth/ModalController';
 
 const cart = ref([]);
 const selectAll = ref(false);
@@ -150,6 +155,12 @@ const showConfirmModal = ref(false);
 const itemToDelete = ref(null);
 const deleteType = ref('product');
 const deleteAction = ref(null);
+
+// Login modal reference
+const loginModalRef = ref(null);
+
+// User authentication status (mock - replace with actual auth check)
+const isUserLoggedIn = ref(false);
 
 // Fetch cart data on component mount
 onMounted(() => {
@@ -261,6 +272,15 @@ const checkout = () => {
         return;
     }
 
+    // Check if user is logged in
+    if (!isUserLoggedIn.value) {
+        // Open login modal if user is not logged in
+        ModalController.open();
+        return;
+    }
+
+    // If user is logged in, proceed with checkout
     console.log('Proceeding to checkout with selected items:', selectedItems.value);
+    // Implement checkout logic here
 };
 </script>
