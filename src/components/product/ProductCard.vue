@@ -6,7 +6,8 @@
                 ${{ product.price.toFixed(2) }}
             </div>
 
-            <img src="https://fakeimg.pl/300" :alt="product.name" class="w-full h-40 object-contain">
+            <img :src="getProductImage(product)" :alt="product.name" class="w-full h-40 object-contain"
+                @error="handleImageError($event, product)">
 
             <!-- Age restriction notice for alcoholic beverages -->
             <div v-if="isAlcoholic" class="text-xs text-gray-500 mt-2">
@@ -28,8 +29,8 @@
 
 <script setup>
 import { addToCart } from '@/services/ShoppingCartService'
-import { computed } from 'vue'
-
+import { computed, ref } from 'vue'
+import { getProductImage, handleImageError } from '@/services/ProductService';
 const props = defineProps({
     product: {
         type: Object,

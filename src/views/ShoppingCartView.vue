@@ -12,7 +12,8 @@
                             @change="toggleSelectAll">
                         <label for="selectAll" class="text-lg">Select All</label>
                     </div>
-                    <button class="ml-4 bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 hover:cursor-pointer"
+                    <button
+                        class="ml-4 bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 hover:cursor-pointer"
                         @click="showRemoveSelectedConfirm('all')" :disabled="selectedItems.length === 0">
                         Remove
                     </button>
@@ -29,7 +30,7 @@
                             @change="updateSelectAll">
 
                         <div class="w-24 h-24 border flex items-center justify-center p-2">
-                            <img src="https://fakeimg.pl/300" :alt="item.name"
+                            <img :src="getProductImage(item)" :alt="item.name" @error="handleImageError($event, item)"
                                 class="max-w-full max-h-full object-contain">
                         </div>
 
@@ -83,7 +84,8 @@
                     <span class="text-xl text-red-500 font-bold">${{ selectedTotal.toFixed(2) }}</span>
                 </div>
 
-                <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg text-xl font-semibold hover:cursor-pointer"
+                <button
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg text-xl font-semibold hover:cursor-pointer"
                     @click="checkout" :disabled="selectedItems.length === 0">
                     Checkout
                 </button>
@@ -137,6 +139,7 @@ import {
     decreaseQuantity as decreaseItemQuantity,
     getCartTotal
 } from '@/services/ShoppingCartService';
+import { getProductImage, handleImageError } from '@/services/ProductService';
 
 const cart = ref([]);
 const selectAll = ref(false);

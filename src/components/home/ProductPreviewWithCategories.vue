@@ -6,7 +6,8 @@
                 <div class="grid grid-cols-2 gap-2 mb-2">
                     <RouterLink v-for="product in getCategoryProducts(category.id, 4)" :key="product.id"
                         :to="`/search?keyword=${product.name}`">
-                        <img src="https://fakeimg.pl/300/" class="w-full h-24 object-cover rounded" />
+                        <img :src="getProductImage(product, category)" :alt="product.name"
+                            class="w-full h-24 object-cover rounded" @error="handleImageError($event, product)" />
                     </RouterLink>
                 </div>
                 <RouterLink :to="`/categories/${category.id}`"
@@ -21,7 +22,7 @@
 import { ref, computed } from 'vue';
 import categoriesJson from '@/mocks/data/categories.json';
 import productsJson from '@/mocks/data/products.json';
-
+import { getProductImage, handleImageError } from '@/services/ProductService';
 const categories = ref([]);
 const products = ref([]);
 
@@ -43,4 +44,6 @@ const getCategoryProducts = (categoryId, limit) => {
     // Return limited number of products (or fewer if not enough)
     return categoryProducts.slice(0, limit);
 };
+
+
 </script>

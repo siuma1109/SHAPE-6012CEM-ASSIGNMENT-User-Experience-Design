@@ -3,1368 +3,1520 @@
         "id": 1,
         "name": "Evian Natural Spring Water",
         "desc": "Premium natural spring water sourced from the French Alps, offering a clean and refreshing taste with a balanced mineral content.",
-        "price": 15.90,
+        "price": 15.9,
         "origin": "France",
         "photo": "/images/products/water/evian.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1587310972467-27a5c504bfb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 2,
         "name": "Volvic Natural Mineral Water",
         "desc": "Natural mineral water filtered through volcanic rocks, providing a light and refreshing hydration experience.",
-        "price": 14.50,
+        "price": 14.5,
         "origin": "France",
         "photo": "/images/products/water/volvic.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1544003484-3cd181d17917?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 3,
         "name": "Fiji Natural Artesian Water",
         "desc": "Naturally filtered through volcanic rock, this premium artesian water is known for its soft, smooth taste and pristine source.",
-        "price": 22.90,
+        "price": 22.9,
         "origin": "Fiji",
         "photo": "/images/products/water/fiji.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1620911626955-c6227a886383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 4,
         "name": "San Pellegrino Sparkling Mineral Water",
         "desc": "Fine quality sparkling mineral water with a distinctive taste and gentle bubbles, perfect for fine dining.",
-        "price": 18.90,
+        "price": 18.9,
         "origin": "Italy",
         "photo": "/images/products/water/sanpellegrino.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1532471940687-6067d9cac167?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 5,
         "name": "Perrier Sparkling Natural Mineral Water",
         "desc": "Refreshing carbonated mineral water with a unique mineral blend and effervescent bubbles from a natural spring in France.",
-        "price": 17.50,
+        "price": 17.5,
         "origin": "France",
         "photo": "/images/products/water/perrier.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1543966357-d5fe7c4211bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 6,
         "name": "Aquafina Purified Drinking Water",
         "desc": "Purified water treated with a rigorous seven-step filtration process for a pure and refreshing taste.",
-        "price": 10.90,
+        "price": 10.9,
         "origin": "USA",
         "photo": "/images/products/water/aquafina.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1557933245-965fc049a804?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 7,
         "name": "Dasani Purified Water",
         "desc": "Purified water enhanced with minerals for a fresh, clean taste, perfect for everyday hydration.",
-        "price": 10.50,
+        "price": 10.5,
         "origin": "USA",
         "photo": "/images/products/water/dasani.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1595909315417-2edd382a56dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 8,
         "name": "Smartwater Vapor Distilled Water",
         "desc": "Vapor-distilled water with added electrolytes for a pure taste and optimal hydration.",
-        "price": 16.90,
+        "price": 16.9,
         "origin": "USA",
         "photo": "/images/products/water/smartwater.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1620911626687-a3d892281747?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 9,
         "name": "Badoit Sparkling Natural Mineral Water",
         "desc": "Naturally sparkling mineral water with fine bubbles and a balanced mineral content for a refreshing taste.",
-        "price": 19.90,
+        "price": 19.9,
         "origin": "France",
         "photo": "/images/products/water/badoit.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1603977864646-61e41115a85e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8d2F0ZXIlMkNib3R0bGV8ZW58MHx8fHwxNzQ2NTI0NzExfDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 10,
         "name": "Vittel Natural Mineral Water",
         "desc": "Natural mineral water from the Vosges Mountains in France, known for its balanced mineral composition.",
-        "price": 13.90,
+        "price": 13.9,
         "origin": "France",
         "photo": "/images/products/water/vittel.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1618354691249-18772bbac3a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 11,
         "name": "Gerolsteiner Sparkling Mineral Water",
         "desc": "Highly mineralized sparkling water from Germany, rich in calcium, magnesium, and bicarbonate.",
-        "price": 18.50,
+        "price": 18.5,
         "origin": "Germany",
         "photo": "/images/products/water/gerolsteiner.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1587310972467-27a5c504bfb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 12,
         "name": "Highland Spring Still Water",
         "desc": "Pure Scottish spring water naturally filtered through ancient rock formations in the Ochil Hills.",
-        "price": 15.50,
+        "price": 15.5,
         "origin": "Scotland",
         "photo": "/images/products/water/highlandspring.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1544003484-3cd181d17917?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 13,
         "name": "Icelandic Glacial Water",
         "desc": "Pure natural spring water from Iceland's Ölfus Spring, with a naturally alkaline pH level of 8.4.",
-        "price": 24.90,
+        "price": 24.9,
         "origin": "Iceland",
         "photo": "/images/products/water/icelandic.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1620911626955-c6227a886383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 14,
         "name": "Voss Artesian Water",
         "desc": "Premium artesian water from Norway, naturally filtered and with minimal minerals for a crisp, pure taste.",
-        "price": 28.90,
+        "price": 28.9,
         "origin": "Norway",
         "photo": "/images/products/water/voss.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1532471940687-6067d9cac167?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 15,
         "name": "Acqua Panna Natural Spring Water",
         "desc": "Still natural spring water from Tuscany, Italy, with a smooth taste and perfect balance of minerals.",
-        "price": 16.90,
+        "price": 16.9,
         "origin": "Italy",
         "photo": "/images/products/water/acquapanna.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1543966357-d5fe7c4211bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 16,
         "name": "Contrex Natural Mineral Water",
         "desc": "Mineral-rich water known for its high calcium and magnesium content, sourced from France.",
-        "price": 14.90,
+        "price": 14.9,
         "origin": "France",
         "photo": "/images/products/water/contrex.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1557933245-965fc049a804?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 17,
         "name": "Solan de Cabras Mineral Water",
         "desc": "Premium Spanish mineral water with a long history, known for its purity and balanced composition.",
-        "price": 19.90,
+        "price": 19.9,
         "origin": "Spain",
         "photo": "/images/products/water/solandecabras.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1595909315417-2edd382a56dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 18,
         "name": "Ferrarelle Sparkling Mineral Water",
         "desc": "Naturally sparkling mineral water from Italy with fine bubbles and a light, refreshing taste.",
-        "price": 17.90,
+        "price": 17.9,
         "origin": "Italy",
         "photo": "/images/products/water/ferrarelle.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1620911626687-a3d892281747?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 19,
         "name": "Wattwiller Still Mineral Water",
         "desc": "Pure mineral water with low sodium content from a protected natural source in the Vosges Mountains.",
-        "price": 15.90,
+        "price": 15.9,
         "origin": "France",
         "photo": "/images/products/water/wattwiller.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1603977864646-61e41115a85e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8d2F0ZXIlMkNib3R0bGV8ZW58MHx8fHwxNzQ2NTI0NzExfDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 20,
         "name": "Spa Reine Mineral Water",
         "desc": "Low-mineral content water from Belgium, known for its purity and light taste.",
-        "price": 14.50,
+        "price": 14.5,
         "origin": "Belgium",
         "photo": "/images/products/water/spareine.jpg",
-        "category_id": 9
+        "category_id": 9,
+        "photo_url": "https://images.unsplash.com/photo-1618354691249-18772bbac3a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHx3YXRlciUyQ2JvdHRsZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 21,
         "name": "Johnnie Walker Black Label",
         "desc": "Premium blended Scotch whisky aged for 12 years, offering rich, complex flavors with hints of sweet vanilla and characteristic smokiness.",
-        "price": 329.90,
+        "price": 329.9,
         "origin": "Scotland",
         "photo": "/images/products/alcoholic/johnniewalker.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1470338745628-171cf53de3a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 22,
         "name": "Absolut Vodka Original",
         "desc": "Premium Swedish vodka made from winter wheat, with a clean, balanced character and subtle sweetness.",
-        "price": 198.50,
+        "price": 198.5,
         "origin": "Sweden",
         "photo": "/images/products/alcoholic/absolut.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1457518919282-b199744eefd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 23,
         "name": "Bombay Sapphire Gin",
         "desc": "Premium London dry gin infused with 10 exotic botanicals using a unique vapor infusion process for a smooth, balanced flavor profile.",
-        "price": 245.90,
+        "price": 245.9,
         "origin": "England",
         "photo": "/images/products/alcoholic/bombaysapphire.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1483918793747-5adbf82956c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 24,
         "name": "Bacardi Superior White Rum",
         "desc": "Light-bodied white rum with subtle flavors of almond and vanilla, ideal for classic cocktails like mojitos and daiquiris.",
-        "price": 175.90,
+        "price": 175.9,
         "origin": "Puerto Rico",
         "photo": "/images/products/alcoholic/bacardi.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1489619447385-3f6a391029c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 25,
         "name": "Don Julio Reposado Tequila",
         "desc": "Premium reposado tequila aged in American white-oak barrels for eight months, offering a rich, smooth taste with notes of citrus and honey.",
-        "price": 398.90,
+        "price": 398.9,
         "origin": "Mexico",
         "photo": "/images/products/alcoholic/donjulio.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1443131307017-4097c8ac7763?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 26,
         "name": "Hennessy VS Cognac",
         "desc": "Classic cognac blending over 40 eaux-de-vie aged up to 8 years for a bold, distinctive character with notes of oak and fruit.",
-        "price": 389.90,
+        "price": 389.9,
         "origin": "France",
         "photo": "/images/products/alcoholic/hennessy.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1481391564276-da6fcacaee31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 27,
         "name": "Jameson Irish Whiskey",
         "desc": "Triple-distilled smooth whiskey with perfect balance of spicy, nutty and vanilla notes with hints of sweet sherry.",
-        "price": 219.90,
+        "price": 219.9,
         "origin": "Ireland",
         "photo": "/images/products/alcoholic/jameson.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1533418418271-4ecc2b055121?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 28,
         "name": "Grey Goose Vodka",
         "desc": "Ultra-premium French vodka made from the finest French wheat, offering exceptional smoothness with subtle hints of almond and citrus.",
-        "price": 329.90,
+        "price": 329.9,
         "origin": "France",
         "photo": "/images/products/alcoholic/greygoose.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 29,
         "name": "Jack Daniel's Old No. 7",
         "desc": "Iconic Tennessee whiskey mellowed drop by drop through sugar maple charcoal for a smooth, distinctive flavor.",
-        "price": 259.90,
+        "price": 259.9,
         "origin": "USA",
         "photo": "/images/products/alcoholic/jackdaniels.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1458819714733-e5ab3d536722?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8YWxjb2hvbCUyQ2RyaW5rfGVufDB8fHx8MTc0NjUyNDcyNXww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 30,
         "name": "Chivas Regal 12 Year Old",
         "desc": "Premium blended Scotch whisky aged for 12 years, featuring honey and ripe apple notes with a creamy texture and rich taste.",
-        "price": 288.90,
+        "price": 288.9,
         "origin": "Scotland",
         "photo": "/images/products/alcoholic/chivas.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1496318447583-f524534e9ce1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 31,
         "name": "Baileys Original Irish Cream",
         "desc": "The original Irish cream liqueur, a blend of Irish whiskey, fresh dairy cream, and cocoa for a smooth, indulgent taste.",
-        "price": 189.90,
+        "price": 189.9,
         "origin": "Ireland",
         "photo": "/images/products/alcoholic/baileys.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1470338745628-171cf53de3a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 32,
         "name": "Smirnoff No. 21 Vodka",
         "desc": "World's most popular vodka, triple distilled and filtered ten times for exceptional smoothness and clarity.",
-        "price": 158.90,
+        "price": 158.9,
         "origin": "USA",
         "photo": "/images/products/alcoholic/smirnoff.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1457518919282-b199744eefd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 33,
         "name": "Havana Club 7 Year Old Rum",
         "desc": "Premium Cuban rum aged for 7 years, offering complex aromas of cocoa, vanilla, cedar, and sweet tobacco.",
-        "price": 229.90,
+        "price": 229.9,
         "origin": "Cuba",
         "photo": "/images/products/alcoholic/havanaclub.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1483918793747-5adbf82956c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 34,
         "name": "Tanqueray London Dry Gin",
         "desc": "Classic London dry gin with a perfect balance of juniper, coriander, angelica, and licorice for a crisp, dry finish.",
-        "price": 219.90,
+        "price": 219.9,
         "origin": "England",
         "photo": "/images/products/alcoholic/tanqueray.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1489619447385-3f6a391029c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 35,
         "name": "Glenfiddich 12 Year Old",
         "desc": "Single malt Scotch whisky matured in American bourbon and Spanish sherry oak casks for a distinctively fresh and fruity flavor with notes of pear and oak.",
-        "price": 398.90,
+        "price": 398.9,
         "origin": "Scotland",
         "photo": "/images/products/alcoholic/glenfiddich.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1443131307017-4097c8ac7763?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 36,
         "name": "Patron Silver Tequila",
         "desc": "Ultra-premium silver tequila handcrafted from 100% Weber Blue Agave, offering a smooth taste with notes of citrus and pepper.",
-        "price": 429.90,
+        "price": 429.9,
         "origin": "Mexico",
         "photo": "/images/products/alcoholic/patron.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1481391564276-da6fcacaee31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 37,
         "name": "Malibu Original Coconut Rum",
         "desc": "Caribbean rum with natural coconut flavor, perfect for creating tropical cocktails with its sweet, smooth taste.",
-        "price": 139.90,
+        "price": 139.9,
         "origin": "Barbados",
         "photo": "/images/products/alcoholic/malibu.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1533418418271-4ecc2b055121?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 38,
         "name": "Cointreau Orange Liqueur",
         "desc": "Premium French orange liqueur with a perfect balance of sweet and bitter orange peels, essential for classic cocktails.",
-        "price": 259.90,
+        "price": 259.9,
         "origin": "France",
         "photo": "/images/products/alcoholic/cointreau.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 39,
         "name": "The Macallan 12 Year Old Double Cask",
         "desc": "Single malt Scotch whisky matured in both American and European sherry-seasoned oak casks, offering rich dried fruits and wood spices.",
-        "price": 698.90,
+        "price": 698.9,
         "origin": "Scotland",
         "photo": "/images/products/alcoholic/macallan.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1458819714733-e5ab3d536722?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8YWxjb2hvbCUyQ2RyaW5rfGVufDB8fHx8MTc0NjUyNDcyNXww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 40,
         "name": "Jägermeister Herbal Liqueur",
         "desc": "German digestif made with 56 herbs, fruits, roots, and spices, featuring a distinctive sweet, spicy, and herbal flavor profile.",
-        "price": 189.90,
+        "price": 189.9,
         "origin": "Germany",
         "photo": "/images/products/alcoholic/jagermeister.jpg",
-        "category_id": 10
+        "category_id": 10,
+        "photo_url": "https://images.unsplash.com/photo-1496318447583-f524534e9ce1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHxhbGNvaG9sJTJDZHJpbmt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 41,
         "name": "Coca-Cola Classic",
         "desc": "The original cola soft drink with its distinctive taste and refreshing bubbles, perfect for any occasion.",
-        "price": 8.50,
+        "price": 8.5,
         "origin": "USA",
         "photo": "/images/products/soft_drinks/cocacola.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1550634487-24e377301911?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 42,
         "name": "Sprite",
         "desc": "Clear, lemon-lime flavored soft drink that delivers a clean, crisp taste with a refreshing after-bite.",
-        "price": 8.50,
+        "price": 8.5,
         "origin": "USA",
         "photo": "/images/products/soft_drinks/sprite.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1625869019037-fe04058bccbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 43,
         "name": "Fanta Orange",
         "desc": "Bright, bubbly orange-flavored soft drink that's bursting with fruity flavor.",
-        "price": 8.50,
+        "price": 8.5,
         "origin": "USA",
         "photo": "/images/products/soft_drinks/fanta.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1625869012487-d5bfdffac6db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 44,
         "name": "Pepsi",
         "desc": "Bold, refreshing cola with a perfect balance of sweetness and refreshment.",
-        "price": 8.50,
+        "price": 8.5,
         "origin": "USA",
         "photo": "/images/products/soft_drinks/pepsi.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1625860647497-d9fa9c39976d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 45,
         "name": "7UP",
         "desc": "Refreshing lemon-lime soda with a crisp, clean taste and no caffeine.",
-        "price": 8.50,
+        "price": 8.5,
         "origin": "USA",
         "photo": "/images/products/soft_drinks/7up.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1625860650806-871900fe2c36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 46,
         "name": "Dr Pepper",
         "desc": "Unique blend of 23 flavors creating a distinctive spicy cherry-flavored soda.",
-        "price": 9.90,
+        "price": 9.9,
         "origin": "USA",
         "photo": "/images/products/soft_drinks/drpepper.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1628200479596-1a08e52b5fac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 47,
         "name": "Mountain Dew",
         "desc": "Citrus-flavored soda with a high caffeine content for an energizing taste experience.",
-        "price": 8.90,
+        "price": 8.9,
         "origin": "USA",
         "photo": "/images/products/soft_drinks/mountaindew.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1625860648719-ab242656c04c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 48,
         "name": "Schweppes Tonic Water",
         "desc": "Sparkling tonic water with quinine for a slightly bitter taste, perfect for mixing with gin.",
-        "price": 9.50,
+        "price": 9.5,
         "origin": "UK",
         "photo": "/images/products/soft_drinks/schweppes.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1625860448256-142933059c77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 49,
         "name": "Canada Dry Ginger Ale",
         "desc": "Crisp, clean ginger ale with a balanced sweetness and subtle ginger flavor.",
-        "price": 9.90,
+        "price": 9.9,
         "origin": "Canada",
         "photo": "/images/products/soft_drinks/canadadry.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1625869014209-6f474d5ca1b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8c29kYSUyQ3NvZnRkcmlua3xlbnwwfHx8fDE3NDY1MjQ3MjR8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 50,
         "name": "Mirinda Orange",
         "desc": "Bold orange-flavored soft drink with intense fruity taste and refreshing bubbles.",
-        "price": 8.50,
+        "price": 8.5,
         "origin": "International",
         "photo": "/images/products/soft_drinks/mirinda.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1626388082199-2948b0418e40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 51,
         "name": "Red Bull Energy Drink",
         "desc": "Premium energy drink that vitalizes body and mind, providing wings when you need them.",
-        "price": 18.90,
+        "price": 18.9,
         "origin": "Austria",
         "photo": "/images/products/soft_drinks/redbull.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1550634487-24e377301911?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 52,
         "name": "Monster Energy",
         "desc": "Energy drink with a powerful blend of ingredients to fuel your inner monster.",
-        "price": 19.90,
+        "price": 19.9,
         "origin": "USA",
         "photo": "/images/products/soft_drinks/monster.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1625869019037-fe04058bccbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 53,
         "name": "Gatorade Lemon-Lime",
         "desc": "Sports drink that replaces electrolytes lost in sweat and provides carbohydrate energy to fuel working muscles.",
-        "price": 12.90,
+        "price": 12.9,
         "origin": "USA",
         "photo": "/images/products/soft_drinks/gatorade.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1625869012487-d5bfdffac6db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 54,
         "name": "Arizona Iced Tea",
         "desc": "Premium ready-to-drink tea available in various refreshing flavors.",
-        "price": 13.90,
+        "price": 13.9,
         "origin": "USA",
         "photo": "/images/products/soft_drinks/arizona.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1625860647497-d9fa9c39976d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 55,
         "name": "Lipton Ice Tea Lemon",
         "desc": "Refreshing iced tea with a perfect balance of tea flavor and lemon, served cold.",
-        "price": 10.90,
+        "price": 10.9,
         "origin": "International",
         "photo": "/images/products/soft_drinks/lipton.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1625860650806-871900fe2c36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 56,
         "name": "A&W Root Beer",
         "desc": "Classic American root beer with a rich, creamy taste and iconic sassafras flavor.",
-        "price": 10.90,
+        "price": 10.9,
         "origin": "USA",
         "photo": "/images/products/soft_drinks/anw.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1628200479596-1a08e52b5fac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 57,
         "name": "Sunkist Orange Soda",
         "desc": "Bold, refreshing orange-flavored soda that delivers a burst of citrus taste in every sip.",
-        "price": 8.90,
+        "price": 8.9,
         "origin": "USA",
         "photo": "/images/products/soft_drinks/sunkist.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1625860648719-ab242656c04c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 58,
         "name": "Calpis Water",
         "desc": "Japanese cultured milk soft drink with a mildly sweet and tangy taste.",
-        "price": 15.90,
+        "price": 15.9,
         "origin": "Japan",
         "photo": "/images/products/soft_drinks/calpis.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1625860448256-142933059c77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 59,
         "name": "Pocari Sweat",
         "desc": "Japanese ion supply drink that replaces electrolytes lost through sweating and physical exertion.",
-        "price": 16.90,
+        "price": 16.9,
         "origin": "Japan",
         "photo": "/images/products/soft_drinks/pocari.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1625869014209-6f474d5ca1b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8c29kYSUyQ3NvZnRkcmlua3xlbnwwfHx8fDE3NDY1MjQ3MjR8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 60,
         "name": "San Pellegrino Limonata",
         "desc": "Sparkling lemon beverage made with juice from Italian lemons for an authentic taste experience.",
-        "price": 15.90,
+        "price": 15.9,
         "origin": "Italy",
         "photo": "/images/products/soft_drinks/limonata.jpg",
-        "category_id": 11
+        "category_id": 11,
+        "photo_url": "https://images.unsplash.com/photo-1626388082199-2948b0418e40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHxzb2RhJTJDc29mdGRyaW5rfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 61,
         "name": "Lay's Original Potato Chips",
         "desc": "Crispy, thinly-sliced potato chips with just the right amount of salt for a classic snack experience.",
-        "price": 18.90,
+        "price": 18.9,
         "origin": "USA",
         "photo": "/images/products/snacks/lays.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1454944338482-a69bb95894af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 62,
         "name": "Doritos Nacho Cheese",
         "desc": "Bold, triangular tortilla chips coated with nacho cheese flavor for a satisfying crunch.",
-        "price": 19.90,
+        "price": 19.9,
         "origin": "USA",
         "photo": "/images/products/snacks/doritos.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1483918793747-5adbf82956c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 63,
         "name": "Pringles Original",
         "desc": "Uniquely shaped potato crisps stacked in a distinctive tube, offering consistent taste and texture.",
-        "price": 24.90,
+        "price": 24.9,
         "origin": "USA",
         "photo": "/images/products/snacks/pringles.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 64,
         "name": "Oreo Original Cookies",
         "desc": "Iconic sandwich cookies featuring two chocolate wafers with sweet cream filling in between.",
-        "price": 16.90,
+        "price": 16.9,
         "origin": "USA",
         "photo": "/images/products/snacks/oreo.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 65,
         "name": "M&M's Chocolate",
         "desc": "Colorful button-shaped chocolates with a hard candy shell surrounding a milk chocolate center.",
-        "price": 15.90,
+        "price": 15.9,
         "origin": "USA",
         "photo": "/images/products/snacks/mnms.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 66,
         "name": "Snickers Bar",
         "desc": "Chocolate bar packed with peanuts, caramel, and nougat for a satisfying sweet treat.",
-        "price": 9.90,
+        "price": 9.9,
         "origin": "USA",
         "photo": "/images/products/snacks/snickers.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1464454709131-ffd692591ee5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 67,
         "name": "Toblerone Milk Chocolate",
         "desc": "Distinctive triangular Swiss chocolate bar with honey and almond nougat pieces.",
-        "price": 24.90,
+        "price": 24.9,
         "origin": "Switzerland",
         "photo": "/images/products/snacks/toblerone.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 68,
         "name": "Ferrero Rocher",
         "desc": "Premium chocolate and hazelnut confectionery with a whole hazelnut encased in a thin wafer shell filled with hazelnut cream.",
-        "price": 39.90,
+        "price": 39.9,
         "origin": "Italy",
         "photo": "/images/products/snacks/ferrero.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/34/rcaNUh3pQ9GD8w7Iy8qE__DSC0940.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 69,
         "name": "Lindt Lindor Truffles",
         "desc": "Smooth melting chocolate truffles with an irresistibly smooth filling, crafted by Swiss master chocolatiers.",
-        "price": 49.90,
+        "price": 49.9,
         "origin": "Switzerland",
         "photo": "/images/products/snacks/lindor.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8c25hY2slMkNmb29kfGVufDB8fHx8MTc0NjUyNDcyNXww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 70,
         "name": "Haribo Gold Bears",
         "desc": "Colorful gummy bears with fruit flavors including pineapple, strawberry, lemon, orange, and raspberry.",
-        "price": 19.90,
+        "price": 19.9,
         "origin": "Germany",
         "photo": "/images/products/snacks/haribo.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 71,
         "name": "Ruffles Cheddar & Sour Cream",
         "desc": "Ridged potato chips with the bold flavor combination of sharp cheddar cheese and tangy sour cream.",
-        "price": 19.90,
+        "price": 19.9,
         "origin": "USA",
         "photo": "/images/products/snacks/ruffles.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1454944338482-a69bb95894af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 72,
         "name": "Pocky Chocolate",
         "desc": "Japanese biscuit stick dipped in chocolate coating, perfect for snacking on the go.",
-        "price": 15.90,
+        "price": 15.9,
         "origin": "Japan",
         "photo": "/images/products/snacks/pocky.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1483918793747-5adbf82956c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 73,
         "name": "Kit Kat",
         "desc": "Crispy wafer fingers covered in smooth milk chocolate, designed for breaking and sharing.",
-        "price": 9.90,
+        "price": 9.9,
         "origin": "UK",
         "photo": "/images/products/snacks/kitkat.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 74,
         "name": "Twix Cookie Bar",
         "desc": "Crunchy cookie topped with caramel and coated in milk chocolate, available as two sticks per package.",
-        "price": 9.90,
+        "price": 9.9,
         "origin": "USA",
         "photo": "/images/products/snacks/twix.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 75,
         "name": "Peanut M&M's",
         "desc": "Peanuts surrounded by milk chocolate and a colorful candy shell for a crunchy chocolate treat.",
-        "price": 16.90,
+        "price": 16.9,
         "origin": "USA",
         "photo": "/images/products/snacks/peanutmnms.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 76,
         "name": "Cheetos Crunchy",
         "desc": "Crunchy corn puffs coated with distinctive cheese flavoring for a tasty snack experience.",
-        "price": 18.90,
+        "price": 18.9,
         "origin": "USA",
         "photo": "/images/products/snacks/cheetos.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1464454709131-ffd692591ee5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 77,
         "name": "Cadbury Dairy Milk",
         "desc": "Creamy milk chocolate made with fresh milk from the British Isles for a signature taste.",
-        "price": 19.90,
+        "price": 19.9,
         "origin": "UK",
         "photo": "/images/products/snacks/cadbury.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 78,
         "name": "Reese's Peanut Butter Cups",
         "desc": "Perfect combination of chocolate and peanut butter in a round cup shape, ideal for peanut butter lovers.",
-        "price": 16.90,
+        "price": 16.9,
         "origin": "USA",
         "photo": "/images/products/snacks/reeses.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/34/rcaNUh3pQ9GD8w7Iy8qE__DSC0940.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 79,
         "name": "Skittles Original",
         "desc": "Chewy fruit-flavored candies with a colorful sugar shell and the slogan 'Taste the Rainbow'.",
-        "price": 13.90,
+        "price": 13.9,
         "origin": "USA",
         "photo": "/images/products/snacks/skittles.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8c25hY2slMkNmb29kfGVufDB8fHx8MTc0NjUyNDcyNXww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 80,
         "name": "Ritter Sport Whole Hazelnuts",
         "desc": "Square German chocolate bar with whole hazelnuts for a perfect crunch in every bite.",
-        "price": 24.90,
+        "price": 24.9,
         "origin": "Germany",
         "photo": "/images/products/snacks/rittersport.jpg",
-        "category_id": 12
+        "category_id": 12,
+        "photo_url": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHxzbmFjayUyQ2Zvb2R8ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 81,
         "name": "Jasmine Rice",
         "desc": "Premium long-grain Thai jasmine rice with a subtle floral aroma and soft, slightly sticky texture when cooked.",
-        "price": 35.90,
+        "price": 35.9,
         "origin": "Thailand",
         "photo": "/images/products/rice/jasmine.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1564834744159-ff0ea41ba4b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 82,
         "name": "Basmati Rice",
         "desc": "Aromatic long-grain rice with a distinct nutty flavor, perfect for Indian and Middle Eastern dishes.",
-        "price": 39.90,
+        "price": 39.9,
         "origin": "India",
         "photo": "/images/products/rice/basmati.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1592119747782-d8c12c2ea267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 83,
         "name": "Japanese Short-Grain Rice",
         "desc": "Premium short-grain rice that becomes sticky when cooked, ideal for sushi and Japanese cuisine.",
-        "price": 45.90,
+        "price": 45.9,
         "origin": "Japan",
         "photo": "/images/products/rice/japanese.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/35/Ov8Hg5LlQriTimkB3PEl_kreativgrund_Weizenfeld.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 84,
         "name": "Arborio Rice",
         "desc": "Medium-grain rice with high starch content, perfect for creating creamy Italian risotto dishes.",
-        "price": 42.90,
+        "price": 42.9,
         "origin": "Italy",
         "photo": "/images/products/rice/arborio.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1465471736877-2c8bf4536ebf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 85,
         "name": "Brown Rice",
         "desc": "Whole grain rice with the bran layer intact, offering more fiber and nutrients than white rice varieties.",
-        "price": 29.90,
+        "price": 29.9,
         "origin": "Various",
         "photo": "/images/products/rice/brown.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1442774503508-2e17027df511?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 86,
         "name": "Instant Ramen Noodles",
         "desc": "Quick-cooking noodles with savory soup base, ready in minutes for a convenient meal.",
-        "price": 8.90,
+        "price": 8.9,
         "origin": "Japan",
         "photo": "/images/products/noodles/ramen.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1518650621721-126ae10b813a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 87,
         "name": "Udon Noodles",
         "desc": "Thick, chewy Japanese wheat noodles perfect for soups and stir-fries.",
-        "price": 18.90,
+        "price": 18.9,
         "origin": "Japan",
         "photo": "/images/products/noodles/udon.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1501258480117-ddc2b0447dab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 88,
         "name": "Rice Vermicelli",
         "desc": "Thin, delicate rice noodles ideal for stir-fries, soups, and fresh spring rolls.",
-        "price": 15.90,
+        "price": 15.9,
         "origin": "Vietnam",
         "photo": "/images/products/noodles/vermicelli.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1514481910271-17c196758db5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 89,
         "name": "Soba Noodles",
         "desc": "Japanese buckwheat noodles with a distinctive nutty flavor, served hot or cold.",
-        "price": 22.90,
+        "price": 22.9,
         "origin": "Japan",
         "photo": "/images/products/noodles/soba.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1738584672973-f33b662c05d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8cmljZSUyQ2dyYWlufGVufDB8fHx8MTc0NjUyNDcyNXww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 90,
         "name": "Egg Noodles",
         "desc": "Yellow wheat noodles enriched with eggs, perfect for Chinese soups and stir-fries.",
-        "price": 16.90,
+        "price": 16.9,
         "origin": "China",
         "photo": "/images/products/noodles/egg.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1600025112931-e41e9a4c1a60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 91,
         "name": "Wild Rice",
         "desc": "Long-grain aquatic grass seed with a chewy texture and earthy flavor, rich in nutrients.",
-        "price": 49.90,
+        "price": 49.9,
         "origin": "North America",
         "photo": "/images/products/rice/wild.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1564834744159-ff0ea41ba4b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 92,
         "name": "Glutinous Rice",
         "desc": "Sticky rice variety commonly used in Asian desserts and special dishes like mango sticky rice.",
-        "price": 32.90,
+        "price": 32.9,
         "origin": "Thailand",
         "photo": "/images/products/rice/glutinous.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1592119747782-d8c12c2ea267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 93,
         "name": "Pad Thai Noodles",
         "desc": "Flat, medium-width rice noodles specifically designed for making the classic Thai stir-fried dish.",
-        "price": 19.90,
+        "price": 19.9,
         "origin": "Thailand",
         "photo": "/images/products/noodles/padthai.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/35/Ov8Hg5LlQriTimkB3PEl_kreativgrund_Weizenfeld.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 94,
         "name": "Rice Paper",
         "desc": "Thin, translucent sheets made from rice for creating Vietnamese spring rolls.",
-        "price": 14.90,
+        "price": 14.9,
         "origin": "Vietnam",
         "photo": "/images/products/rice/ricepaper.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1465471736877-2c8bf4536ebf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 95,
         "name": "Red Rice",
         "desc": "Whole grain rice with reddish bran, offering a nutty flavor and more nutrients than white rice.",
-        "price": 39.90,
+        "price": 39.9,
         "origin": "Bhutan",
         "photo": "/images/products/rice/red.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1442774503508-2e17027df511?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 96,
         "name": "Spaghetti",
         "desc": "Classic long, thin pasta made from durum wheat, perfect for serving with various sauces.",
-        "price": 18.90,
+        "price": 18.9,
         "origin": "Italy",
         "photo": "/images/products/noodles/spaghetti.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1518650621721-126ae10b813a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 97,
         "name": "Black Rice",
         "desc": "Distinctive dark-colored rice with a slightly sweet flavor and high antioxidant content.",
-        "price": 45.90,
+        "price": 45.9,
         "origin": "China",
         "photo": "/images/products/rice/black.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1501258480117-ddc2b0447dab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 98,
         "name": "Pho Noodles",
         "desc": "Flat rice noodles specifically for Vietnamese pho soup, with a tender texture.",
-        "price": 19.90,
+        "price": 19.9,
         "origin": "Vietnam",
         "photo": "/images/products/noodles/pho.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1514481910271-17c196758db5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 99,
         "name": "Whole Wheat Pasta",
         "desc": "Nutritious pasta made from whole wheat flour, offering more fiber and nutrients than regular pasta.",
-        "price": 22.90,
+        "price": 22.9,
         "origin": "Italy",
         "photo": "/images/products/noodles/wholewheat.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1738584672973-f33b662c05d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8cmljZSUyQ2dyYWlufGVufDB8fHx8MTc0NjUyNDcyNXww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 100,
         "name": "Instant Cup Noodles",
         "desc": "Convenient cup of instant noodles with seasoning, just add hot water for a quick meal.",
-        "price": 12.90,
+        "price": 12.9,
         "origin": "Japan",
         "photo": "/images/products/noodles/cupnoodles.jpg",
-        "category_id": 13
+        "category_id": 13,
+        "photo_url": "https://images.unsplash.com/photo-1600025112931-e41e9a4c1a60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHxyaWNlJTJDZ3JhaW58ZW58MHx8fHwxNzQ2NTI0NzI1fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 101,
         "name": "Fresh Milk",
         "desc": "High-quality pasteurized whole milk, rich in calcium and protein, perfect for drinking and cooking.",
-        "price": 19.90,
+        "price": 19.9,
         "origin": "Hong Kong",
         "photo": "/images/products/dairy/milk.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1468818088606-e7e5ef7b145b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 102,
         "name": "Cheddar Cheese",
         "desc": "Aged, natural cheese with a firm texture and rich, tangy flavor, perfect for sandwiches and cooking.",
-        "price": 45.90,
+        "price": 45.9,
         "origin": "UK",
         "photo": "/images/products/dairy/cheddar.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1586985288348-b3b4b1a50b58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 103,
         "name": "Greek Yogurt",
         "desc": "Thick, creamy yogurt strained to remove excess whey, offering high protein content and rich texture.",
-        "price": 28.90,
+        "price": 28.9,
         "origin": "Greece",
         "photo": "/images/products/dairy/greekyogurt.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1600404909302-cf717f9df204?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 104,
         "name": "Butter",
         "desc": "Premium unsalted butter made from fresh cream, perfect for cooking, baking, and spreading.",
-        "price": 32.90,
+        "price": 32.9,
         "origin": "New Zealand",
         "photo": "/images/products/dairy/butter.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1636564499112-6113e73c504a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 105,
         "name": "Mozzarella Cheese",
         "desc": "Soft, mild Italian cheese with excellent melting properties, ideal for pizza and pasta dishes.",
-        "price": 49.90,
+        "price": 49.9,
         "origin": "Italy",
         "photo": "/images/products/dairy/mozzarella.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1590080876102-9473629d7e23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 106,
         "name": "Sour Cream",
         "desc": "Cultured cream with a tangy flavor, perfect for topping baked potatoes, tacos, and making dips.",
-        "price": 25.90,
+        "price": 25.9,
         "origin": "USA",
         "photo": "/images/products/dairy/sourcream.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1590080876477-fa40830fe6f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 107,
         "name": "Whipping Cream",
         "desc": "High-fat cream perfect for whipping into fluffy toppings for desserts or enriching sauces.",
-        "price": 29.90,
+        "price": 29.9,
         "origin": "France",
         "photo": "/images/products/dairy/whippingcream.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1550583724-b2692b85b150?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 108,
         "name": "Parmesan Cheese",
         "desc": "Hard, aged Italian cheese with a rich, nutty flavor, perfect for grating over pasta dishes.",
-        "price": 89.90,
+        "price": 89.9,
         "origin": "Italy",
         "photo": "/images/products/dairy/parmesan.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1498843053639-170ff2122f35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 109,
         "name": "Cream Cheese",
         "desc": "Soft, smooth cheese with a mild flavor, ideal for spreading on bagels or using in cheesecake.",
-        "price": 32.90,
+        "price": 32.9,
         "origin": "USA",
         "photo": "/images/products/dairy/creamcheese.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1583507623011-5cc6ff99e11c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8ZGFpcnklMkNtaWxrfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 110,
         "name": "Almond Milk",
         "desc": "Plant-based milk alternative made from ground almonds, perfect for those avoiding dairy.",
-        "price": 29.90,
+        "price": 29.9,
         "origin": "USA",
         "photo": "/images/products/dairy/almondmilk.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 111,
         "name": "Low-Fat Milk",
         "desc": "Reduced fat milk with all the nutritional benefits but less fat content than whole milk.",
-        "price": 18.90,
+        "price": 18.9,
         "origin": "Hong Kong",
         "photo": "/images/products/dairy/lowfatmilk.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1468818088606-e7e5ef7b145b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 112,
         "name": "Swiss Cheese",
         "desc": "Semi-hard cheese with distinctive holes and a mild, nutty flavor, perfect for sandwiches.",
-        "price": 59.90,
+        "price": 59.9,
         "origin": "Switzerland",
         "photo": "/images/products/dairy/swiss.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1586985288348-b3b4b1a50b58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 113,
         "name": "Cottage Cheese",
         "desc": "Fresh cheese curd product with a mild flavor and soft, creamy texture, high in protein.",
-        "price": 25.90,
+        "price": 25.9,
         "origin": "USA",
         "photo": "/images/products/dairy/cottage.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1600404909302-cf717f9df204?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 114,
         "name": "Brie Cheese",
         "desc": "Soft cheese with an edible white rind and creamy interior, offering rich flavor.",
-        "price": 69.90,
+        "price": 69.9,
         "origin": "France",
         "photo": "/images/products/dairy/brie.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1636564499112-6113e73c504a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 115,
         "name": "Oat Milk",
         "desc": "Plant-based milk alternative made from oats, with a naturally sweet taste and creamy texture.",
-        "price": 34.90,
+        "price": 34.9,
         "origin": "Sweden",
         "photo": "/images/products/dairy/oatmilk.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1590080876102-9473629d7e23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 116,
         "name": "Feta Cheese",
         "desc": "Brined cheese with a tangy, salty flavor and crumbly texture, perfect for salads.",
-        "price": 49.90,
+        "price": 49.9,
         "origin": "Greece",
         "photo": "/images/products/dairy/feta.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1590080876477-fa40830fe6f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 117,
         "name": "Blue Cheese",
         "desc": "Strong-flavored cheese with distinctive blue veins created by Penicillium cultures.",
-        "price": 65.90,
+        "price": 65.9,
         "origin": "France",
         "photo": "/images/products/dairy/blue.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1550583724-b2692b85b150?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 118,
         "name": "Condensed Milk",
         "desc": "Sweetened, concentrated milk with most of the water removed, perfect for desserts and coffee.",
-        "price": 22.90,
+        "price": 22.9,
         "origin": "Various",
         "photo": "/images/products/dairy/condensed.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1498843053639-170ff2122f35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 119,
         "name": "Buttermilk",
         "desc": "Fermented dairy drink with a slightly tangy taste, ideal for baking and marinades.",
-        "price": 24.90,
+        "price": 24.9,
         "origin": "USA",
         "photo": "/images/products/dairy/buttermilk.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1583507623011-5cc6ff99e11c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8ZGFpcnklMkNtaWxrfGVufDB8fHx8MTc0NjUyNDcyNHww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 120,
         "name": "Gouda Cheese",
         "desc": "Semi-hard Dutch cheese with a rich, unique flavor that intensifies with age.",
-        "price": 55.90,
+        "price": 55.9,
         "origin": "Netherlands",
         "photo": "/images/products/dairy/gouda.jpg",
-        "category_id": 14
+        "category_id": 14,
+        "photo_url": "https://images.unsplash.com/photo-1500595046743-cd271d694d30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHxkYWlyeSUyQ21pbGt8ZW58MHx8fHwxNzQ2NTI0NzI0fDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 121,
         "name": "Gerber Rice Cereal",
         "desc": "Iron-fortified rice cereal specially designed as a first solid food for babies.",
-        "price": 32.90,
+        "price": 32.9,
         "origin": "USA",
         "photo": "/images/products/baby/gerber_rice.jpg",
-        "category_id": 18
+        "category_id": 18,
+        "photo_url": "https://images.unsplash.com/photo-1545126825-050ef4e817bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHxiYWJ5JTJDZm9vZHxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 122,
         "name": "Heinz Baby Apple Puree",
         "desc": "Smooth apple puree made from organic apples, suitable for babies from 4 months.",
-        "price": 14.50,
+        "price": 14.5,
         "origin": "UK",
         "photo": "/images/products/baby/heinz_apple.jpg",
-        "category_id": 18
+        "category_id": 18,
+        "photo_url": "https://images.unsplash.com/photo-1544829832-c8047d6b9d89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHxiYWJ5JTJDZm9vZHxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 123,
         "name": "Ella's Kitchen Vegetable Bake",
         "desc": "Organic vegetable blend with a mild flavor, perfect for introducing vegetables to babies.",
-        "price": 18.90,
+        "price": 18.9,
         "origin": "UK",
         "photo": "/images/products/baby/ellas_veggie.jpg",
-        "category_id": 18
+        "category_id": 18,
+        "photo_url": "https://images.unsplash.com/photo-1548289227-b7d966b70003?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHxiYWJ5JTJDZm9vZHxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 124,
         "name": "HiPP Organic Fruit Pouches",
         "desc": "Organic fruit blend in a convenient pouch, ideal for on-the-go feeding.",
-        "price": 16.90,
+        "price": 16.9,
         "origin": "Germany",
         "photo": "/images/products/baby/hipp_fruit.jpg",
-        "category_id": 18
+        "category_id": 18,
+        "photo_url": "https://images.unsplash.com/photo-1652480181991-24fc8dbb5d54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHxiYWJ5JTJDZm9vZHxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 125,
         "name": "Pampers Premium Protection",
         "desc": "Ultra-absorbent diapers with soft, breathable materials for maximum comfort and dryness.",
-        "price": 89.90,
+        "price": 89.9,
         "origin": "USA",
         "photo": "/images/products/baby/pampers_premium.jpg",
-        "category_id": 19
+        "category_id": 19,
+        "photo_url": "https://images.unsplash.com/photo-1505679428249-ebe9559320a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHxiYWJ5JTJDZGlhcGVyfGVufDB8fHx8MTc0NjUyNjY2M3ww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 126,
         "name": "Huggies Natural Care Wipes",
         "desc": "Gentle, fragrance-free baby wipes enriched with aloe and vitamin E.",
-        "price": 45.90,
+        "price": 45.9,
         "origin": "USA",
         "photo": "/images/products/baby/huggies_wipes.jpg",
-        "category_id": 19
+        "category_id": 19,
+        "photo_url": "https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHxiYWJ5JTJDZGlhcGVyfGVufDB8fHx8MTc0NjUyNjY2M3ww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 127,
         "name": "Merries Tape Diapers",
         "desc": "Japanese premium diapers with high absorbency and breathability for sensitive skin.",
-        "price": 98.90,
+        "price": 98.9,
         "origin": "Japan",
         "photo": "/images/products/baby/merries_diapers.jpg",
-        "category_id": 19
+        "category_id": 19,
+        "photo_url": "https://images.unsplash.com/photo-1489760176169-fd3d32805239?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHxiYWJ5JTJDZGlhcGVyfGVufDB8fHx8MTc0NjUyNjY2M3ww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 128,
         "name": "Water Wipes Sensitive",
         "desc": "The world's purest baby wipes, made with 99.9% water and a drop of fruit extract.",
-        "price": 59.90,
+        "price": 59.9,
         "origin": "Ireland",
         "photo": "/images/products/baby/water_wipes.jpg",
-        "category_id": 19
+        "category_id": 19,
+        "photo_url": "https://images.unsplash.com/photo-1591161555818-7b9debeccc07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHxiYWJ5JTJDZGlhcGVyfGVufDB8fHx8MTc0NjUyNjY2M3ww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 129,
         "name": "Cetaphil Gentle Skin Cleanser",
         "desc": "Mild, non-irritating cleanser suitable for all skin types, especially sensitive skin.",
-        "price": 89.90,
+        "price": 89.9,
         "origin": "USA",
         "photo": "/images/products/skincare/cetaphil.jpg",
-        "category_id": 22
+        "category_id": 22,
+        "photo_url": "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8c2tpbmNhcmV8ZW58MHx8fHwxNzQ2NTI0NzExfDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 130,
         "name": "Neutrogena Hydro Boost Gel",
         "desc": "Water-based moisturizer with hyaluronic acid for intense, long-lasting hydration.",
-        "price": 129.90,
+        "price": 129.9,
         "origin": "USA",
         "photo": "/images/products/skincare/neutrogena.jpg",
-        "category_id": 22
+        "category_id": 22,
+        "photo_url": "https://images.unsplash.com/photo-1585945037805-5fd82c2e60b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHxza2luY2FyZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 131,
         "name": "La Roche-Posay Effaclar Duo",
         "desc": "Targeted treatment for acne-prone skin that reduces the appearance of imperfections.",
-        "price": 219.90,
+        "price": 219.9,
         "origin": "France",
         "photo": "/images/products/skincare/laroche.jpg",
-        "category_id": 22
+        "category_id": 22,
+        "photo_url": "https://images.unsplash.com/photo-1573461160327-b450ce3d8e7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHxza2luY2FyZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 132,
         "name": "SK-II Facial Treatment Essence",
         "desc": "Luxury facial essence containing over 90% Pitera to improve skin texture and radiance.",
-        "price": 1299.90,
+        "price": 1299.9,
         "origin": "Japan",
         "photo": "/images/products/skincare/skii.jpg",
-        "category_id": 22
+        "category_id": 22,
+        "photo_url": "https://images.unsplash.com/photo-1609357912334-e96886c0212b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHxza2luY2FyZXxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 133,
         "name": "Dettol Multi-Surface Cleaner",
         "desc": "Antibacterial cleaner that kills 99.9% of bacteria and viruses on multiple surfaces.",
-        "price": 39.90,
+        "price": 39.9,
         "origin": "UK",
         "photo": "/images/products/cleaning/dettol.jpg",
-        "category_id": 28
+        "category_id": 28,
+        "photo_url": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHxjbGVhbmluZyUyQ3Byb2R1Y3R8ZW58MHx8fHwxNzQ2NTI0NzExfDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 134,
         "name": "Mr. Clean Magic Eraser",
         "desc": "Innovative cleaning pad that removes tough stains and marks with just water.",
-        "price": 29.90,
+        "price": 29.9,
         "origin": "USA",
         "photo": "/images/products/cleaning/mrclean.jpg",
-        "category_id": 28
+        "category_id": 28,
+        "photo_url": "https://images.unsplash.com/photo-1556228578-567ba127e37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHxjbGVhbmluZyUyQ3Byb2R1Y3R8ZW58MHx8fHwxNzQ2NTI0NzExfDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 135,
         "name": "Windex Glass Cleaner",
         "desc": "Streak-free glass cleaner that leaves windows, mirrors, and glass surfaces crystal clear.",
-        "price": 32.90,
+        "price": 32.9,
         "origin": "USA",
         "photo": "/images/products/cleaning/windex.jpg",
-        "category_id": 28
+        "category_id": 28,
+        "photo_url": "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHxjbGVhbmluZyUyQ3Byb2R1Y3R8ZW58MHx8fHwxNzQ2NTI0NzExfDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 136,
         "name": "Clorox Disinfecting Wipes",
         "desc": "Convenient disinfecting wipes that kill 99.9% of viruses and bacteria on surfaces.",
-        "price": 45.90,
+        "price": 45.9,
         "origin": "USA",
         "photo": "/images/products/cleaning/clorox.jpg",
-        "category_id": 28
+        "category_id": 28,
+        "photo_url": "https://images.unsplash.com/photo-1615396899839-c99c121888b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHxjbGVhbmluZyUyQ3Byb2R1Y3R8ZW58MHx8fHwxNzQ2NTI0NzExfDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 137,
         "name": "Royal Canin Adult Dog Food",
         "desc": "Premium dry dog food formulated for adult dogs with balanced nutrition for optimal health.",
-        "price": 399.90,
+        "price": 399.9,
         "origin": "France",
         "photo": "/images/products/pet/royalcanin_dog.jpg",
-        "category_id": 32
+        "category_id": 32,
+        "photo_url": "https://images.unsplash.com/photo-1597843786186-826cc3489f56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHxwZXQlMkNmb29kfGVufDB8fHx8MTc0NjUyNDcxMXww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 138,
         "name": "Pedigree Dentastix",
         "desc": "Dental chew treats that help reduce tartar buildup and maintain healthy teeth and gums.",
-        "price": 89.90,
+        "price": 89.9,
         "origin": "USA",
         "photo": "/images/products/pet/dentastix.jpg",
-        "category_id": 32
+        "category_id": 32,
+        "photo_url": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHxwZXQlMkNmb29kfGVufDB8fHx8MTc0NjUyNDcxMXww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 139,
         "name": "Kong Classic Dog Toy",
         "desc": "Durable rubber toy that can be filled with treats for mental stimulation and play.",
-        "price": 119.90,
+        "price": 119.9,
         "origin": "USA",
         "photo": "/images/products/pet/kong.jpg",
-        "category_id": 32
+        "category_id": 32,
+        "photo_url": "https://images.unsplash.com/photo-1454944338482-a69bb95894af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8cGV0JTJDZm9vZHxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 140,
         "name": "Furminator Deshedding Tool",
         "desc": "Professional-grade grooming tool that reduces shedding by removing loose undercoat hair.",
-        "price": 249.90,
+        "price": 249.9,
         "origin": "USA",
         "photo": "/images/products/pet/furminator.jpg",
-        "category_id": 32
+        "category_id": 32,
+        "photo_url": "https://images.unsplash.com/photo-1565674244283-993fb27a215f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHxwZXQlMkNmb29kfGVufDB8fHx8MTc0NjUyNDcxMXww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 141,
         "name": "Organic Quinoa",
         "desc": "Premium organic quinoa, a complete protein grain with essential amino acids and rich nutrients.",
-        "price": 69.90,
+        "price": 69.9,
         "origin": "Peru",
         "photo": "/images/products/organic/quinoa.jpg",
-        "category_id": 36
+        "category_id": 36,
+        "photo_url": "https://images.unsplash.com/photo-1654120754228-d5c93a7bd5a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHxvcmdhbmljJTJDZm9vZHxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 142,
         "name": "Organic Raw Honey",
         "desc": "Unprocessed, pure organic honey with natural enzymes and antioxidants.",
-        "price": 129.90,
+        "price": 129.9,
         "origin": "New Zealand",
         "photo": "/images/products/organic/honey.jpg",
-        "category_id": 36
+        "category_id": 36,
+        "photo_url": "https://images.unsplash.com/photo-1735461933480-4af02f49cb5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHxvcmdhbmljJTJDZm9vZHxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 143,
         "name": "Organic Chia Seeds",
         "desc": "Nutrient-dense superfood rich in omega-3 fatty acids, fiber, and protein.",
-        "price": 89.90,
+        "price": 89.9,
         "origin": "Mexico",
         "photo": "/images/products/organic/chia.jpg",
-        "category_id": 36
+        "category_id": 36,
+        "photo_url": "https://images.unsplash.com/photo-1711238440853-97bb65ca7589?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw0fHxvcmdhbmljJTJDZm9vZHxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 144,
         "name": "Organic Coconut Oil",
         "desc": "Cold-pressed, unrefined organic coconut oil for cooking, baking, and skincare.",
-        "price": 119.90,
+        "price": 119.9,
         "origin": "Philippines",
         "photo": "/images/products/organic/coconut_oil.jpg",
-        "category_id": 36
+        "category_id": 36,
+        "photo_url": "https://images.unsplash.com/photo-1744003169142-14dcdbe0d80b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw1fHxvcmdhbmljJTJDZm9vZHxlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 145,
         "name": "Château Margaux 2015",
         "desc": "Premier Grand Cru Classé Bordeaux with elegant tannins and complex flavors of dark fruits and spices.",
-        "price": 9899.90,
+        "price": 9899.9,
         "origin": "France",
         "photo": "/images/products/wine/margaux.jpg",
-        "category_id": 38
+        "category_id": 38,
+        "photo_url": "https://images.unsplash.com/photo-1524250426644-e24b385c291a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw2fHx3aW5lJTJDYm90dGxlfGVufDB8fHx8MTc0NjUyNDcxMXww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 146,
         "name": "Penfolds Grange 2016",
         "desc": "Australia's most famous wine with intense concentration, dark fruit flavors and exceptional aging potential.",
-        "price": 7999.90,
+        "price": 7999.9,
         "origin": "Australia",
         "photo": "/images/products/wine/penfolds.jpg",
-        "category_id": 38
+        "category_id": 38,
+        "photo_url": "https://images.unsplash.com/photo-1667226701528-722a4f098707?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw3fHx3aW5lJTJDYm90dGxlfGVufDB8fHx8MTc0NjUyNDcxMXww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 147,
         "name": "Sassicaia 2017",
         "desc": "Iconic Italian Super Tuscan with elegant structure, red fruit flavors and excellent balance.",
-        "price": 3499.90,
+        "price": 3499.9,
         "origin": "Italy",
         "photo": "/images/products/wine/sassicaia.jpg",
-        "category_id": 38
+        "category_id": 38,
+        "photo_url": "https://images.unsplash.com/photo-1658869262578-8a5536258469?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw4fHx3aW5lJTJDYm90dGxlfGVufDB8fHx8MTc0NjUyNDcxMXww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 148,
         "name": "Opus One 2018",
         "desc": "Prestigious Napa Valley Bordeaux blend with rich dark fruit, subtle oak and silky tannins.",
-        "price": 4299.90,
+        "price": 4299.9,
         "origin": "USA",
         "photo": "/images/products/wine/opusone.jpg",
-        "category_id": 38
+        "category_id": 38,
+        "photo_url": "https://images.unsplash.com/photo-1562601579-d6283c267a6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHw5fHx3aW5lJTJDYm90dGxlfGVufDB8fHx8MTc0NjUyNDcxMXww&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 149,
         "name": "Estée Lauder Advanced Night Repair",
         "desc": "Revolutionary night serum that reduces multiple signs of aging with patented technologies.",
-        "price": 899.90,
+        "price": 899.9,
         "origin": "USA",
         "photo": "/images/products/beauty/esteelauder.jpg",
-        "category_id": 42
+        "category_id": 42,
+        "photo_url": "https://images.unsplash.com/photo-1522337660859-02fbefca4702?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxMHx8YmVhdXR5JTJDY29zbWV0aWN8ZW58MHx8fHwxNzQ2NTI0NzExfDA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 150,
         "name": "Laneige Water Sleeping Mask",
         "desc": "Overnight gel mask that hydrates and revitalizes skin while you sleep.",
-        "price": 299.90,
+        "price": 299.9,
         "origin": "Korea",
         "photo": "/images/products/beauty/laneige.jpg",
-        "category_id": 42
+        "category_id": 42,
+        "photo_url": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwxfHxiZWF1dHklMkNjb3NtZXRpY3xlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 151,
         "name": "Bioderma Sensibio H2O Micellar Water",
         "desc": "Gentle micellar cleansing water that removes makeup and impurities without rinsing.",
-        "price": 189.90,
+        "price": 189.9,
         "origin": "France",
         "photo": "/images/products/beauty/bioderma.jpg",
-        "category_id": 42
+        "category_id": 42,
+        "photo_url": "https://images.unsplash.com/photo-1440589473619-3cde28941638?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwyfHxiZWF1dHklMkNjb3NtZXRpY3xlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     },
     {
         "id": 152,
         "name": "Shiseido Ultimune Power Infusing Concentrate",
         "desc": "Powerful skin defense serum that strengthens skin's resilience and enhances its natural beauty.",
-        "price": 799.90,
+        "price": 799.9,
         "origin": "Japan",
         "photo": "/images/products/beauty/shiseido.jpg",
-        "category_id": 42
+        "category_id": 42,
+        "photo_url": "https://images.unsplash.com/photo-1499651681375-8afc5a4db253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDc2MDh8MHwxfHNlYXJjaHwzfHxiZWF1dHklMkNjb3NtZXRpY3xlbnwwfHx8fDE3NDY1MjQ3MTF8MA&ixlib=rb-4.1.0&q=80&w=400"
     }
 ]
