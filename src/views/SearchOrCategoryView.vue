@@ -4,11 +4,11 @@
 
         <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
             <!-- Filter Section -->
-            <div class="md:col-span-1 bg-gray-50 p-6 rounded-lg">
+            <div class="md:col-span-1 bg-gray-50 p-6 rounded-lg" v-if="availableCategories.length > 1 || availableOrigins.length > 1">
                 <h2 class="text-xl font-semibold mb-6">Filters</h2>
 
                 <!-- Category Filter -->
-                <div class="mb-6">
+                <div class="mb-6" v-if="availableCategories.length > 1">
                     <h3 class="text-lg font-medium mb-3">Category</h3>
                     <div v-for="cat in availableCategories" :key="cat.id" class="mb-2">
                         <label class="flex items-center cursor-pointer">
@@ -20,7 +20,7 @@
                 </div>
 
                 <!-- Origin Filter -->
-                <div class="mb-6">
+                <div class="mb-6" v-if="availableOrigins.length > 1">
                     <h3 class="text-lg font-medium mb-3">Origin</h3>
                     <div v-for="origin in availableOrigins" :key="origin" class="mb-2">
                         <label class="flex items-center cursor-pointer">
@@ -91,16 +91,32 @@ const selectedOrigins = ref([])
 
 // Get available categories and origins from products
 const availableCategories = computed(() => {
-    // Get unique category IDs from products
-    const categoryIds = [...new Set(products.value.map(p => p.category_id))]
+    // Start with all products that match current search/category
+    let filteredProducts = [...products.value]
+    
+    // If origins are selected, filter products by origin first
+    if (selectedOrigins.value.length > 0) {
+        filteredProducts = filteredProducts.filter(p => selectedOrigins.value.includes(p.origin))
+    }
+    
+    // Get unique category IDs from filtered products
+    const categoryIds = [...new Set(filteredProducts.map(p => p.category_id))]
 
     // Return full category objects for these IDs
     return categoriesJson.filter(cat => categoryIds.includes(cat.id))
 })
 
 const availableOrigins = computed(() => {
-    // Get unique origins from products
-    return [...new Set(products.value.map(p => p.origin))].sort()
+    // Start with all products that match current search/category
+    let filteredProducts = [...products.value]
+    
+    // If categories are selected, filter products by category first
+    if (selectedCategories.value.length > 0) {
+        filteredProducts = filteredProducts.filter(p => selectedCategories.value.includes(p.category_id))
+    }
+    
+    // Get unique origins from filtered products
+    return [...new Set(filteredProducts.map(p => p.origin))].sort()
 })
 
 // Filtered products based on selected filters
