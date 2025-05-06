@@ -6,12 +6,18 @@ const cart = ref(storedCart ? JSON.parse(storedCart) : [])
 
 // Helper function to save cart to localStorage
 const saveCart = () => {
+    // Filter out items with zero quantity
+    cart.value = cart.value.filter(item => item.quantity > 0);
+
     // Remove selected property before saving to localStorage
     const cartToSave = cart.value.map(item => {
         const { selected, ...itemWithoutSelected } = item;
         return itemWithoutSelected;
     });
     localStorage.setItem('cart', JSON.stringify(cartToSave))
+
+    // Dispatch a custom event to notify all components
+    window.dispatchEvent(new CustomEvent('cart-updated'))
 }
 
 export const addToCart = (product) => {
@@ -39,7 +45,7 @@ export const updateQuantity = (productId, quantity) => {
 
 export const decreaseQuantity = (productId) => {
     const product = cart.value.find(p => p.id === productId)
-    if (product && product.quantity > 1) {
+    if (product && product.quantity > 0) {
         product.quantity -= 1
         saveCart()
     }
