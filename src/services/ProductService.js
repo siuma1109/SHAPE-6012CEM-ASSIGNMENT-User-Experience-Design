@@ -83,7 +83,7 @@ export const getProductsImage = async () => {
         try {
             const response = await fetch(`https://api.unsplash.com/search/photos?query=${searchTerm}`, {
                 headers: {
-                    Authorization: 'Client-ID g03Y5ryt3qnEcJ4AXmRDjZugc9uB9HyJItwtpoBDaz4'
+                    Authorization: 'Client-ID {access_token}'
                 }
             });
 
